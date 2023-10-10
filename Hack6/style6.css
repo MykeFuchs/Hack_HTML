@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Anton&family=Montserrat:ital,wght@0,400;1,900&family=Roboto+Mono:ital,wght@1,700&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    color: white;
+    background-color: #290059;
+}
+
+.container{
+    height: 100vh;
+}
+
+.tittle{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    font-family: 'Monserrat', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.container-planes{
+
+    display: flex;
+    gap: 100px;
+    margin: 80px 25%;
+    width: 50%;
+    height: 100%;
+}
+
+.plan1{
+    background-color: white;
+    color: #290059;
+    width: 50%;
+    position: relative;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+.plan2{
+    background-color: white;
+    color: #290059;
+    width: 50%;
+    position: relative;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.boton{
+    position: absolute;
+    bottom: -1.5rem;
+    width: 90%;
+    height: 2.5rem;
+    content: "Select Plan";
+    background-color: #004AAD;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
